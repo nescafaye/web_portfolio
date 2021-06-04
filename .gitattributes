@@ -1,0 +1,6 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+*.php filter=lfs diff=lfs merge=lfs -text
+wp-content/ filter=lfs diff=lfs merge=lfs -text
+wp-admin/ filter=lfs diff=lfs merge=lfs -text
+wp-includes/ filter=lfs diff=lfs merge=lfs -text
